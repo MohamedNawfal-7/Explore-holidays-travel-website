@@ -1,0 +1,206 @@
+
+.nawfal{
+    background-color: rgb(19, 19, 19);
+
+}
+.nawfal ul{
+    display: inline;
+    display: flex;
+    margin-top: 0%;
+    margin-left: 62%;
+    margin-bottom: 0%;
+    padding: 10px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    list-style-type: none;
+}
+.nawfal ul li{
+    padding-left: 30px;
+    list-style: none;
+    text-decoration: none;
+
+}
+.hello{
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url("./background.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: none;
+    border-radius: 20px;
+    backdrop-filter: blur(15px) brightness(80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+/* h6 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    padding: 5%;
+} */
+
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.second{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+
+input:focus~label,
+input:valid~label {
+    top: -5px;
+}
+
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.forget {
+    margin: -10px 0 17px;
+    font-size: 0.9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget label input {
+    margin-right: 3px;
+}
+
+.forget a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.forget a:hover {
+    text-decoration: underline;
+}
+
+.btn{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.register {
+    font-size: 0.9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+    .form-box {
+        width: 100%;
+        border-radius: 0px;
+    }
+}
+.nawf{
+    font-weight: bold;
+}
+.pack{
+    margin-left: 3%;
+}
+.pack .write{
+    position: absolute;
+    color: rgb(203, 196, 196);
+    left: 10px;
+    top: 10px;
+    margin-top: 73%;
+    margin-left: 16%;
+    font-weight: bold;
+    font-size: x-large;
+
+    
+}
+.pic.pack{
+    position: fixed;
+    z-index: 1;
+    margin-top: 100%;
+}
+.pack.write{
+    z-index: 1;
+    margin-top: 60%;
+}
+.two{
+    display: grid;
+    grid-template-columns: auto auto;
+}
